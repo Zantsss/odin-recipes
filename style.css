@@ -1,0 +1,35 @@
+.no-bullets {
+    list-style: none;
+}
+
+ h1, .alert-text {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+}
+
+body {
+    background-color: rgb(27, 77, 36);
+}
+
+li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(27, 77, 36);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li a:hover {
+    background-color: rgb(65, 133, 133);
+    color: rgb(255, 255, 255);
+}
+
+.alert-text {
+    text-transform: capitalize;
+    font-size: 30px;
+}
