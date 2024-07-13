@@ -33,3 +33,8 @@ li a:hover {
     text-transform: capitalize;
     font-size: 30px;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(217, 220, 20);
+}
