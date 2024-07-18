@@ -2,8 +2,8 @@
     list-style: none;
 }
 
- h1, .alert-text {
-    color: aliceblue;
+ h1 {
+    color: rgb(65, 133, 133);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 65px;
@@ -13,10 +13,12 @@ body {
     background-color: rgb(27, 77, 36);
 }
 
+li {
+    display: inline-flex;
+    margin: 0;
+}
+
 li a {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
     padding: 10px 20px;
     text-decoration: none;
     color: rgb(27, 77, 36);
@@ -26,12 +28,29 @@ li a {
 
 li a:hover {
     background-color: rgb(65, 133, 133);
-    color: rgb(255, 255, 255);
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
 }
 
 .alert-text {
     text-transform: capitalize;
     font-size: 30px;
+}
+
+button {
+    background-color: rgb(219, 219, 97);
+    border-radius: 20px;
+    border-color: rgb(131, 26, 26);
+    height: 40px;
+    width: 170px;
+    color: rgb(61, 105, 76);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 a {
