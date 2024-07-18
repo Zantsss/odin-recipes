@@ -1,14 +1,3 @@
-@media only screen and (max-width: 600px) {
-    /*styles for screens with a maximum width of 600px */
-    li {
-        display: block;
-        padding: 10px;
-    }
-
-    li a {
-        font-size: 18px;
-    }
-}
 .no-bullets {
     list-style: none;
 }
